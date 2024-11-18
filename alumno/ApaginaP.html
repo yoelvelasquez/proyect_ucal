@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cursos</title>
+    <link rel="stylesheet" href="/alumno/ApaginaP.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido, <span id="nombre-estudiante"></span></h1>
+        <button class="logout-button" onclick="cerrarSesion()">Cerrar sesión</button>
+    </header>
+
+    <main>
+        <h2>Cursos disponibles</h2>
+        <div class="courses" id="courses-container">
+            <!-- Los cursos se cargarán aquí -->
+        </div>
+    </main>
+
+    <!-- Incluir los scripts de Firebase -->
+    <script type="module" src="/alumno/ApaginaP.js"></script>
+</body>
+</html>

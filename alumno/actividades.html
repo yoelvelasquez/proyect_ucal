@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="/alumno/actividades.css">
+</head>
+<body>
+    <header>
+        <div class="logo-placeholder"></div>
+        <input type="text" placeholder="https://" class="url-bar">
+        <nav>
+            <a href="#">CURSO1</a>
+            <a href="#">CURSO2</a>
+            <a href="#">CURSO3</a>
+            <a href="#">CURSO4</a>
+        </nav>
+        <div class="user-profile">USER</div>
+    </header>
+    <main>
+        <div class="activity-list">
+            <div class="activity-item">
+                <input type="text" placeholder="NOMBRE DE LA ACTIVIDAD" class="activity-name">
+                <div class="progress-emoji">😊</div> <!-- Carita feliz -->
+                <button class="evaluate-button">Evaluar</button>
+                <div class="progress-bar"></div>
+            </div>
+            <div class="activity-item">
+                <input type="text" placeholder="NOMBRE DE LA ACTIVIDAD" class="activity-name">
+                <div class="progress-emoji">😐</div> <!-- Carita moderada -->
+                <button class="evaluate-button">Evaluar</button>
+                <div class="progress-bar"></div>
+            </div>
+            <div class="activity-item">
+                <input type="text" placeholder="NOMBRE DE LA ACTIVIDAD" class="activity-name">
+                <div class="progress-emoji">😢</div> <!-- Carita triste -->
+                <button class="evaluate-button">Evaluar</button>
+                <div class="progress-bar"></div>
+            </div>
+            <!-- Agrega más actividades según sea necesario -->
+        </div>
+        <div class="recovery-section" id="recovery-section">
+            <p>Usted no ha cumplido con la calificación requerida</p>
+            <p>¿Desea recuperar?</p>
+            <div class="recovery-buttons">
+                <button>No</button>
+                <button>Yes</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/alumno/actividades.js"></script>
+</body>
+</html>

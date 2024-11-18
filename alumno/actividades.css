@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-placeholder {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+}
+
+.url-bar {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.user-profile {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.activity-name {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.progress-emoji {
+    font-size: 24px;
+}
+
+.evaluate-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 150px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.recovery-section {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: none; /* Ocultar inicialmente */
+}
+
+.recovery-section p {
+    margin-bottom: 10px;
+}
+
+.recovery-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recovery-buttons button {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
